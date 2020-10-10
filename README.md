@@ -22,4 +22,5 @@ But usually we have greyscale/colour image (pixel value range from 0 to 255).
 
 # Links for reading : -
 ![Haar like Features](https://en.wikipedia.org/wiki/Haar-like_feature)  
-![Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
+![Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)  
+![Face Detection using Haar like Features](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html)
