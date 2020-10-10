@@ -24,8 +24,8 @@ But usually we have greyscale/colour image (pixel value range from 0 to 255).
 
 # Requirements :-
 #### 1. Python 3.*  
-#### 1.OpenCV  
-#### 2.Numpy  
+#### 2. OpenCV  
+#### 3. Numpy  
 
 # Links for reading : -
 ![Haar like Features](https://en.wikipedia.org/wiki/Haar-like_feature)  
