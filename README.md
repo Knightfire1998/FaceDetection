@@ -18,4 +18,8 @@ But usually we have greyscale/colour image (pixel value range from 0 to 255).
 1. We use a opencv and haar feature file (it contains feature description for face and eyes of a person) as a base for our face detector.
 2. Video feed is captured using the webcome with the help of **cap.read()** method in openCV, then it is converted into frames.
 3. Then the Frames are processed one at a time, a Cascadeclassifier with Haar feature file as an input tries to match all the features of the frame with the features in the file.
-4. A bounding box is draw around the detected face and eyes.
+4. A bounding boxes are drawn around the detected face and eyes.
+
+# Links for reading : -
+![Haar like Features](https://en.wikipedia.org/wiki/Haar-like_feature)  
+![Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
