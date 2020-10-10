@@ -7,4 +7,15 @@ based on the concept of features proposed by Paul Viola and Michael Jones in the
 
 # What are Haar Features ?
 Haar features are sequence of rescaled square shape functions proposed by Alfred Haar in 1909. They are similar to convolution kernels 
-taught in the Convolution Neural Networks course. We will apply these haar features to all relevant parts of face so as to detect human face.
+taught in the Convolution Neural Networks course. We will apply these haar features to all relevant parts of face so as to detect human face.  
+
+![Haar Feature](https://github.com/Knightfire1998/FaceDetection/blob/master/haar.png?raw=true)  
+As we see in the above image, there are edge features (1 and 2), line features (3).  
+They are white and black pixels images (value 0 or value 1).  
+But usually we have greyscale/colour image (pixel value range from 0 to 255).  
+
+# Working : -
+1. We use a opencv and haar feature file (it contains feature description for face and eyes of a person) as a base for our face detector.
+2. Video feed is captured using the webcome with the help of **cap.read()** method in openCV, then it is converted into frames.
+3. Then the Frames are processed one at a time, a Cascadeclassifier with Haar feature file as an input tries to match all the features of the frame with the features in the file.
+4. A bounding box is draw around the detected face and eyes.
