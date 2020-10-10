@@ -20,6 +20,13 @@ But usually we have greyscale/colour image (pixel value range from 0 to 255).
 3. Then the Frames are processed one at a time, a Cascadeclassifier with Haar feature file as an input tries to match all the features of the frame with the features in the file.
 4. Bounding boxes are drawn around the detected face and eyes.
 
+![Face Detection](https://github.com/Knightfire1998/FaceDetection/blob/master/face.jpg?raw=true)  
+
+# Requirements :-
+#### 1. Python 3.*  
+#### 1.OpenCV  
+#### 2.Numpy  
+
 # Links for reading : -
 ![Haar like Features](https://en.wikipedia.org/wiki/Haar-like_feature)  
 ![Cascade Classifier](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)  
